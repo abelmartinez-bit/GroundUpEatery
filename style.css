@@ -97,11 +97,27 @@ h3 {
 section {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 60px 20px 20px;
+}
+
+.full-width-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.full-width-image img {
+    width: 100%;
+    max-width: none;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0;
+    margin: 0;
 }
 
 .menu {
     max-width: 1000px;
+    padding: 40px 20px 20px;
 }
 
 .menu-grid {
